@@ -1,0 +1,33 @@
+name: Update LeetCode Stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  update-leetcode:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch LeetCode Data
+        id: leetcode
+        run: |
+          echo "Fetching LeetCode metrics for sandy191020..."
+          RESPONSE=$(curl -s -X POST https://leetcode.com/graphql \
+            -H "Content-Type: application/json" \
+            -d '{"query": "query userProblemsSolved($username: String!) { matchedUser(username: $username) { submitStatsGlobal { acSubmissionNum { difficulty count } } } }", "variables": {"username": "sandy191020"}}')
+          echo "Response: $RESPONSE"
+          # Verify connection and log execution status
+
+      - name: Update README Timestamp
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: sync leetcode statistics [skip ci]" && git push)
