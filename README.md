@@ -62,14 +62,6 @@ A hybrid security tool combining Graph Neural Networks (GNN) with symbolic execu
 
 ---
 
-### GITHUB STATS
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sandy191020&show_icons=true&theme=dark&bg_color=0c0d11&title_color=ffffff&text_color=a1a1aa&icon_color=3b82f6&border_color=27272a&hide_border=false" width="32%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sandy191020&layout=compact&theme=dark&bg_color=0c0d11&title_color=ffffff&text_color=a1a1aa&border_color=27272a&hide_border=false" width="32%" alt="Top Languages" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sandy191020&theme=dark&background=0c0d11&stroke=27272a&alarm=3b82f6&ring=3b82f6&fire=3b82f6&currStreakNum=ffffff&sideNums=a1a1aa&sideTitle=a1a1aa&dates=71717a" width="32%" alt="GitHub Streak" />
-</div>
-
 ---
 
 ### CONNECT
