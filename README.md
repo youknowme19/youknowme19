@@ -62,8 +62,6 @@ A hybrid security tool combining Graph Neural Networks (GNN) with symbolic execu
 
 ---
 
----
-
 ### CONNECT
 
 [GitHub](https://github.com/sandy191020) &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/sandy191020) &nbsp;•&nbsp; [Email](mailto:sandeep.work1910@gmail.com)
