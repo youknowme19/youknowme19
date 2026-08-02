@@ -5,7 +5,7 @@
 
   <br/>
 
-  <!-- Hero Typing Effect -->
+  <!-- Hero Typing Animation -->
   <a href="https://readme-typing-svg.demolab.com">
     <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&duration=3000&pause=1000&color=A1A1AA&background=00000000&center=true&vCenter=true&width=600&height=36&lines=Building+AI+Systems.;Researching+AI+Security.;Exploring+Neuro-Symbolic+AI.;Shipping+Full-Stack+Projects.;Always+Building." alt="Typing Animation" />
   </a>
@@ -14,43 +14,55 @@
 
 ---
 
-### INTRODUCTION
+### ABOUT ME
 
-Computer Science (Data Science) undergraduate exploring the intersection of graph learning, symbolic execution, and software security.
+Computer Science (Data Science) undergraduate building full-stack software and researching AI security. 
 
-Currently building a **Neuro-Symbolic Fuzzer** that combines Graph Neural Networks with symbolic execution to prioritize high-risk execution paths during binary analysis.
-
----
-
-### FLAGSHIP RESEARCH: NEURO-SYMBOLIC FUZZER
-
-Systematic discovery of zero-day vulnerabilities in compiled binaries by resolving constraint solver bottlenecking.
-
-#### The Problem & Solution
-- **The Bottleneck**: Traditional symbolic execution engines (like `angr` using `Z3`) suffer from combinatorial path explosion when exploring complex binaries, stalling constraint solvers on deep paths.
-- **The Solution**: Graph Neural Networks encode control-flow graphs (CFGs) and assembly ASTs into dynamic representations, predicting high-risk execution paths so symbolic execution can prioritize vulnerability-rich code blocks.
-
-#### System Architecture
-
-<div align="center">
-  <img src="assets/architecture.svg" alt="Neuro-Symbolic Fuzzer Architecture" width="100%" />
-</div>
-
-#### Research Timeline
-
-<div align="center">
-  <img src="assets/timeline.svg" alt="Research Milestone Timeline" width="100%" />
-</div>
+I focus on practical engineering problems across distributed backends, developer tools, and automated vulnerability analysis. My work bridges deep learning models with deterministic software systems to build tools that are reliable, fast, and useful.
 
 ---
 
 ### TECH STACK
 
-`Python` • `C++` • `PyTorch` • `NetworkX` • `angr` • `Z3 SMT` • `FastAPI` • `Docker` • `Git` • `Linux`
+- **Languages**: Python, C++, Java, TypeScript, SQL
+- **AI & Research**: PyTorch, TensorFlow, NetworkX, angr, Z3 SMT Solver
+- **Backend & Web**: FastAPI, Node.js, Express, React, Next.js, REST APIs
+- **Databases & DevOps**: PostgreSQL, MongoDB, Docker, Git, Linux, GitHub Actions
 
 ---
 
-### METRICS
+### WHAT I BUILD
+
+- **AI Systems**: Neural graph models, representation learning on code, and context-aware LLM tools.
+- **Security & Binary Tools**: Automated vulnerability discovery, control-flow graph analysis, and symbolic execution engines.
+- **Full-Stack Engineering**: High-performance Web APIs, reactive user interfaces, and modular backend architectures.
+- **Automation & Dev Tools**: CI/CD pipelines, problem-solving trackers, and workflow automation.
+
+---
+
+### FEATURED PROJECT
+
+#### **Neuro-Symbolic Fuzzer**
+*Binary Vulnerability Analysis Framework*
+
+A hybrid security tool combining Graph Neural Networks (GNN) with symbolic execution (`angr` / `Z3`). It learns execution path heuristics over control-flow graphs to prioritize high-risk binary paths, drastically reducing solver path explosion during automated vulnerability discovery.
+
+- **Stack**: `Python` • `PyTorch` • `angr` • `Z3 Solver` • `C++` • `NetworkX`
+- **Focus**: Zero-day vulnerability detection, memory safety analysis, neural-guided program exploration
+
+---
+
+### CURRENT FOCUS
+
+- Accelerating symbolic execution path selection using graph neural embeddings.
+- Engineering scalable backend services with FastAPI, PostgreSQL, and Docker.
+- Designing clean, developer-focused APIs and user interfaces.
+- Exploring static analysis techniques for binary intermediate representations.
+- Optimizing end-to-end data pipelines for machine learning workflows.
+
+---
+
+### GITHUB STATS
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sandy191020&show_icons=true&theme=dark&bg_color=0c0d11&title_color=ffffff&text_color=a1a1aa&icon_color=3b82f6&border_color=27272a&hide_border=false" width="32%" alt="GitHub Stats" />
@@ -62,4 +74,4 @@ Systematic discovery of zero-day vulnerabilities in compiled binaries by resolvi
 
 ### CONNECT
 
-[LinkedIn](https://linkedin.com/in/sandy191020) &nbsp;•&nbsp; [Email](mailto:sandeep@research.dev) &nbsp;•&nbsp; [Portfolio](https://sandeep.dev)
+[GitHub](https://github.com/sandy191020) &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/sandy191020) &nbsp;•&nbsp; [Email](mailto:sandeep.work1910@gmail.com)
