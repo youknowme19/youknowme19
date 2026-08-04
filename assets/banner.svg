@@ -2,129 +2,155 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a0c"/>
-      <stop offset="50%" stop-color="#0d0e12"/>
-      <stop offset="100%" stop-color="#070708"/>
+      <stop offset="0%" stop-color="#050506"/>
+      <stop offset="50%" stop-color="#0a0a0d"/>
+      <stop offset="100%" stop-color="#040405"/>
     </linearGradient>
 
-    <!-- Radial Accent Glow -->
-    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.10"/>
-      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.03"/>
+    <!-- Radial Ambient Indigo/Blue Glow -->
+    <radialGradient id="ambient-glow" cx="80%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.06"/>
+      <stop offset="40%" stop-color="#6366f1" stop-opacity="0.03"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Subtle Grid Pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
-      <circle cx="40" cy="40" r="1" fill="#ffffff" fill-opacity="0.08"/>
+    <!-- Sleek Grid Pattern -->
+    <pattern id="blueprint-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.015" stroke-width="0.75"/>
+      <circle cx="40" cy="40" r="0.75" fill="#ffffff" fill-opacity="0.04"/>
     </pattern>
+
+    <!-- Subtle Accent Line Gradient -->
+    <linearGradient id="line-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
   <style>
     .title {
-      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
-      font-size: 52px;
-      font-weight: 700;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, sans-serif;
+      font-size: 56px;
+      font-weight: 800;
       fill: #ffffff;
-      letter-spacing: -0.03em;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
     }
     .subtitle {
-      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
-      font-size: 19px;
-      font-weight: 400;
-      fill: #888888;
-      letter-spacing: -0.01em;
-    }
-    .badge-text {
-      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-      font-size: 11px;
-      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
       fill: #a1a1aa;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      opacity: 0.95;
     }
-    .node-text {
-      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-      font-size: 11px;
-      fill: #71717a;
+    .tagline {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      fill: #52525b;
+      letter-spacing: 0.05em;
+    }
+    .geometry {
+      fill: none;
+      stroke-width: 1;
+    }
+    .geo-primary {
+      stroke: #3f3f46;
+      stroke-opacity: 0.2;
+    }
+    .geo-secondary {
+      stroke: #6366f1;
+      stroke-opacity: 0.15;
+    }
+    .geo-node {
+      fill: #09090b;
+      stroke: #71717a;
+      stroke-width: 1;
+    }
+    .marker-text {
+      font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
+      font-size: 9px;
+      fill: #3f3f46;
+      letter-spacing: 0.1em;
     }
   </style>
 
-  <!-- Background -->
+  <!-- Background Layer -->
   <rect width="1200" height="320" fill="url(#bg-grad)"/>
-  <rect width="1200" height="320" fill="url(#glow)"/>
-  <rect width="1200" height="320" fill="url(#grid)"/>
+  <rect width="1200" height="320" fill="url(#ambient-glow)"/>
+  <rect width="1200" height="320" fill="url(#blueprint-grid)"/>
 
-  <!-- Border Frame -->
-  <rect x="1" y="1" width="1198" height="318" fill="none" stroke="#ffffff" stroke-opacity="0.06" rx="10"/>
+  <!-- Outer Premium Border -->
+  <rect x="1" y="1" width="1198" height="318" fill="none" stroke="#ffffff" stroke-opacity="0.04" rx="8"/>
 
-  <!-- Right Visual: Clean Graph Network Motif -->
-  <g transform="translate(760, 45)" opacity="0.9">
-    <path d="M 40 120 L 130 50 L 240 100 L 300 40 L 210 190 L 110 200 Z" fill="none" stroke="#27272a" stroke-width="1.5" stroke-dasharray="4 4"/>
-    <path d="M 130 50 L 210 190 M 240 100 L 110 200 M 40 120 L 240 100" fill="none" stroke="#3f3f46" stroke-width="1"/>
+  <!-- Glowing Accent Line at the Bottom -->
+  <line x1="100" y1="319" x2="1100" y2="319" stroke="url(#line-glow)" stroke-width="1.5"/>
 
-    <!-- Nodes -->
-    <g transform="translate(130, 50)">
-      <circle r="18" fill="#18181b" stroke="#52525b" stroke-width="1.5"/>
-      <circle r="5" fill="#3b82f6"/>
-      <text x="26" y="4" class="node-text">GNN.predict()</text>
-    </g>
-
-    <g transform="translate(240, 100)">
-      <circle r="15" fill="#18181b" stroke="#52525b" stroke-width="1.5"/>
-      <circle r="4" fill="#6366f1"/>
-      <text x="22" y="4" class="node-text">Z3.solve()</text>
-    </g>
-
-    <g transform="translate(210, 190)">
-      <circle r="20" fill="#18181b" stroke="#3f3f46" stroke-width="1.5"/>
-      <circle r="5" fill="#10b981"/>
-      <text x="-40" y="34" class="node-text">fuzz_target()</text>
-    </g>
-
-    <g transform="translate(40, 120)">
-      <circle r="12" fill="#18181b" stroke="#3f3f46" stroke-width="1.5"/>
-      <circle r="3" fill="#a855f7"/>
-      <text x="-70" y="4" class="node-text">CFG.extract()</text>
-    </g>
-
-    <g transform="translate(300, 40)">
-      <circle r="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.5"/>
-      <circle r="3" fill="#f59e0b"/>
-    </g>
-
-    <g transform="translate(110, 200)">
-      <circle r="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.5"/>
-      <circle r="3" fill="#ec4899"/>
-    </g>
+  <!-- Technical blueprint ticks in corners -->
+  <g opacity="0.3">
+    <!-- Bottom-left -->
+    <path d="M 20 305 L 20 295 M 15 300 L 25 300" stroke="#71717a" stroke-width="0.75"/>
+    <text x="32" y="303" class="marker-text">SYS // REF-01</text>
+    
+    <!-- Top-right -->
+    <path d="M 1180 15 L 1180 25 M 1175 20 L 1185 20" stroke="#71717a" stroke-width="0.75"/>
+    
+    <!-- Top-left -->
+    <path d="M 20 15 L 20 25 M 15 20 L 25 20" stroke="#71717a" stroke-width="0.75"/>
+    
+    <!-- Bottom-right -->
+    <path d="M 1180 305 L 1180 295 M 1175 300 L 1185 300" stroke="#71717a" stroke-width="0.75"/>
   </g>
 
-  <!-- Left Content -->
-  <g transform="translate(70, 0)">
-    <!-- Pill Badge -->
-    <g transform="translate(0, 52)">
-      <rect width="240" height="26" rx="13" fill="#14151a" stroke="#27272a" stroke-width="1"/>
-      <circle cx="14" cy="13" r="3.5" fill="#10b981"/>
-      <text x="26" y="17" class="badge-text">NEURO-SYMBOLIC FUZZING</text>
-    </g>
+  <!-- Left Content (Typography) -->
+  <g transform="translate(80, 0)">
+    <!-- Subtitle (Top Tag) -->
+    <text x="0" y="112" class="subtitle">Software Engineering • AI • Research</text>
+    
+    <!-- Main Title -->
+    <text x="0" y="172" class="title">Sandeep</text>
 
-    <!-- Main Name -->
-    <text x="0" y="138" class="title">Sandeep</text>
+    <!-- Tagline (Bottom Statement) -->
+    <text x="2" y="212" class="tagline">BUILDING SOFTWARE. TRAINING MODELS. SHIPPING PRODUCTS.</text>
+  </g>
 
-    <!-- Subtitle -->
-    <text x="0" y="190" class="subtitle">Building AI systems, security research, and</text>
-    <text x="0" y="218" class="subtitle">software that solves real engineering problems.</text>
+  <!-- Right Visual: Premium Isometric Architecture/System Mesh -->
+  <g transform="translate(820, 60)">
+    <!-- Connecting Projection Lines -->
+    <path d="M 0 100 L 100 50 L 200 100 L 100 150 Z" class="geometry geo-primary"/>
+    <path d="M 0 100 L 0 150 L 100 200 L 100 150" class="geometry geo-primary"/>
+    <path d="M 200 100 L 200 150 L 100 200" class="geometry geo-primary"/>
+    
+    <!-- Secondary Offset Floating Plane -->
+    <path d="M 20 70 L 100 30 L 180 70 L 100 110 Z" class="geometry geo-secondary"/>
+    
+    <!-- Vertical Connectors -->
+    <line x1="100" y1="30" x2="100" y2="150" class="geometry geo-primary" stroke-dasharray="3 3"/>
+    <line x1="20" y1="70" x2="0" y2="100" class="geometry geo-secondary"/>
+    <line x1="180" y1="70" x2="200" y2="100" class="geometry geo-secondary"/>
+    <line x1="100" y1="110" x2="100" y2="150" class="geometry geo-secondary"/>
 
-    <!-- Subtle Tags -->
-    <g transform="translate(0, 260)">
-      <rect width="155" height="24" rx="5" fill="#121316" stroke="#27272a" stroke-width="1"/>
-      <text x="10" y="16" font-family="'SFMono-Regular', Consolas, monospace" font-size="11" fill="#71717a">Neuro-Symbolic AI</text>
+    <!-- Nodes / Vertices representing modular layers -->
+    <!-- Top layer nodes -->
+    <circle cx="100" cy="30" r="4.5" class="geo-node"/>
+    <circle cx="20" cy="70" r="3.5" class="geo-node"/>
+    <circle cx="180" cy="70" r="3.5" class="geo-node"/>
+    <circle cx="100" cy="110" r="3.5" class="geo-node"/>
 
-      <rect x="167" y="0" width="145" height="24" rx="5" fill="#121316" stroke="#27272a" stroke-width="1"/>
-      <text x="177" y="16" font-family="'SFMono-Regular', Consolas, monospace" font-size="11" fill="#71717a">Binary Vulnerabilities</text>
+    <!-- Bottom layer nodes -->
+    <circle cx="100" cy="50" r="3.5" class="geo-node" stroke-opacity="0.3"/>
+    <circle cx="0" cy="100" r="4.5" class="geo-node"/>
+    <circle cx="200" cy="100" r="4.5" class="geo-node"/>
+    <circle cx="100" cy="150" r="5.5" fill="#09090b" stroke="#3b82f6" stroke-width="1.5"/>
+    <circle cx="100" cy="200" r="3.5" class="geo-node"/>
 
-      <rect x="324" y="0" width="165" height="24" rx="5" fill="#121316" stroke="#27272a" stroke-width="1"/>
-      <text x="334" y="16" font-family="'SFMono-Regular', Consolas, monospace" font-size="11" fill="#71717a">Graph Neural Networks</text>
-    </g>
+    <!-- Blueprint Info Overlay -->
+    <text x="120" y="25" class="marker-text" fill-opacity="0.7">SYS // LAYER_0</text>
+    <text x="215" y="104" class="marker-text" fill-opacity="0.7">NODE_A</text>
+    <text x="-70" y="104" class="marker-text" fill-opacity="0.7">NODE_B</text>
   </g>
 </svg>

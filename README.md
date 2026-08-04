@@ -7,7 +7,7 @@
 
   <!-- Hero Typing Animation -->
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&duration=3000&pause=1000&color=A1A1AA&background=00000000&center=true&vCenter=true&width=600&height=36&lines=Building+AI+Systems.;Researching+AI+Security.;Exploring+Neuro-Symbolic+AI.;Shipping+Full-Stack+Projects.;Always+Building." alt="Typing Animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&duration=3000&pause=1000&color=A1A1AA&background=00000000&center=true&vCenter=true&width=600&height=36&lines=Building+Software.;Creating+AI+Applications.;Designing+Scalable+Systems.;Contributing+to+Open+Source.;Always+Learning." alt="Typing Animation" />
   </a>
 
 </div>
@@ -16,49 +16,61 @@
 
 ### ABOUT ME
 
-Computer Science (Data Science) undergraduate building full-stack software and researching AI security. 
+I am a software engineer, backend developer, and AI practitioner focused on building high-performance products and developer tools.
 
-I focus on practical engineering problems across distributed backends, developer tools, and automated vulnerability analysis. My work bridges deep learning models with deterministic software systems to build tools that are reliable, fast, and useful.
+My work lies at the intersection of robust backend systems, scalable AI architectures, and developer-focused tooling. I enjoy designing clean API architectures, optimizing distributed databases, and deploying machine learning models in production environments. When engineering hard problems, I leverage program analysis and machine learning research to build tools that are deterministic, fast, and secure.
 
 ---
 
 ### TECH STACK
 
 - **Languages**: Python, C++, Java, TypeScript, SQL
-- **AI & Research**: PyTorch, TensorFlow, NetworkX, angr, Z3 SMT Solver
-- **Backend & Web**: FastAPI, Node.js, Express, React, Next.js, REST APIs
+- **Backend**: FastAPI, Node.js, Express, REST & gRPC APIs
+- **Frontend**: React, Next.js, HTML5/CSS3
+- **AI / ML & Research**: PyTorch, TensorFlow, NetworkX, angr, Z3 Solver
 - **Databases & DevOps**: PostgreSQL, MongoDB, Docker, Git, Linux, GitHub Actions
 
 ---
 
 ### WHAT I BUILD
 
-- **AI Systems**: Neural graph models, representation learning on code, and context-aware LLM tools.
-- **Security & Binary Tools**: Automated vulnerability discovery, control-flow graph analysis, and symbolic execution engines.
-- **Full-Stack Engineering**: High-performance Web APIs, reactive user interfaces, and modular backend architectures.
-- **Automation & Dev Tools**: CI/CD pipelines, problem-solving trackers, and workflow automation.
+- **AI & Product Engineering**: Intelligent user applications, semantic search tools, and agentic workflows.
+- **Web & Backend Architecture**: High-throughput web services, robust database schemas, and modular API design.
+- **Developer Tools & Automation**: CLI utilities, custom scripting systems, and continuous integration pipelines.
+- **Systems & Security Research**: Graph-guided program exploration, symbolic execution, and static code representation.
 
 ---
 
-### FEATURED PROJECT
+### FEATURED PROJECTS
 
-#### **Neuro-Symbolic Fuzzer**
-*Binary Vulnerability Analysis Framework*
+#### **[Neuro-Symbolic Fuzzer](https://github.com/sandy191020)**
+*A hybrid program analysis framework guiding symbolic execution using graph neural networks.*
+- **Stack**: `Python` • `PyTorch` • `angr` • `Z3 Solver` • `C++`
+- Prioritizes high-risk execution paths identified by GNN models over control-flow graphs, mitigating state explosion.
 
-A hybrid security tool combining Graph Neural Networks (GNN) with symbolic execution (`angr` / `Z3`). It learns execution path heuristics over control-flow graphs to prioritize high-risk binary paths, drastically reducing solver path explosion during automated vulnerability discovery.
+#### **[Chrome LinkedIn Assistant](https://github.com/sandy191020)**
+*A developer-focused browser extension utilizing LLMs for context-aware networking.*
+- **Stack**: `TypeScript` • `React` • `Chrome Extension API` • `OpenAI API`
+- Automates and drafts personalized networking messages based on candidate profiles, optimizing outreach pipelines.
 
-- **Stack**: `Python` • `PyTorch` • `angr` • `Z3 Solver` • `C++` • `NetworkX`
-- **Focus**: Zero-day vulnerability detection, memory safety analysis, neural-guided program exploration
+#### **[BookMyLawyer](https://github.com/sandy191020)**
+*A full-stack SaaS platform connecting legal professionals with prospective clients.*
+- **Stack**: `Next.js` • `FastAPI` • `PostgreSQL` • `Docker`
+- Features real-time appointment scheduling, secure automated invoice generation, and a messaging interface.
+
+#### **[Open Source Contributions](https://github.com/sandy191020)**
+*Active contributions to dev tools, developer utilities, and backend libraries.*
+- **Stack**: `Git` • `GitHub Actions` • `Community Tooling`
+- Fixed performance bottlenecks, updated documentation, and optimized test suites across community repositories.
 
 ---
 
 ### CURRENT FOCUS
 
-- Accelerating symbolic execution path selection using graph neural embeddings.
-- Engineering scalable backend services with FastAPI, PostgreSQL, and Docker.
-- Designing clean, developer-focused APIs and user interfaces.
-- Exploring static analysis techniques for binary intermediate representations.
-- Optimizing end-to-end data pipelines for machine learning workflows.
+- Building and deploying production-ready AI applications and agentic workflows.
+- Deepening expertise in distributed backend architectures and high-performance computing.
+- Contributing to open-source developer tools and developer experience tooling.
+- Researching intelligent software analysis techniques and program representation.
 
 ---
 
