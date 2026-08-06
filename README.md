@@ -76,4 +76,4 @@ My work lies at the intersection of robust backend systems, scalable AI architec
 
 ### CONNECT
 
-[GitHub](https://github.com/sandy191020) &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/sandy191020) &nbsp;•&nbsp; [Email](mailto:sandeep.work1910@gmail.com)
+[GitHub](https://github.com/sandy191020) &nbsp;•&nbsp; [LinkedIn]([https://linkedin.com/in/sandy191020](https://www.linkedin.com/in/sandeep-research/)) &nbsp;•&nbsp; [Email](mailto:sandeep.work1910@gmail.com)
