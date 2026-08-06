@@ -76,4 +76,4 @@ My work lies at the intersection of robust backend systems, scalable AI architec
 
 ### CONNECT
 
-[GitHub](https://github.com/youknowme19) &nbsp;•&nbsp; [LinkedIn](https://www.linkedin.com/in/sandeep-research/) &nbsp;•&nbsp; [Email](mailto:sand.eepn@1910@gmail.com)]
+[GitHub](https://github.com/youknowme19) &nbsp;•&nbsp; [LinkedIn](https://www.linkedin.com/in/sandeep-research/) &nbsp;•&nbsp; [Email](mailto:sand.eepn@1910@gmail.com)
