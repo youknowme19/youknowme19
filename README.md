@@ -43,22 +43,22 @@ My work lies at the intersection of robust backend systems, scalable AI architec
 
 ### FEATURED PROJECTS
 
-#### **[Neuro-Symbolic Fuzzer](https://github.com/sandy191020)**
+#### **[Neuro-Symbolic Fuzzer](https://github.com/youknowme19)**
 *A hybrid program analysis framework guiding symbolic execution using graph neural networks.*
 - **Stack**: `Python` • `PyTorch` • `angr` • `Z3 Solver` • `C++`
 - Prioritizes high-risk execution paths identified by GNN models over control-flow graphs, mitigating state explosion.
 
-#### **[Chrome LinkedIn Assistant](https://github.com/sandy191020)**
+#### **[Chrome LinkedIn Assistant](https://github.com/youknowme19)**
 *A developer-focused browser extension utilizing LLMs for context-aware networking.*
 - **Stack**: `TypeScript` • `React` • `Chrome Extension API` • `OpenAI API`
 - Automates and drafts personalized networking messages based on candidate profiles, optimizing outreach pipelines.
 
-#### **[BookMyLawyer](https://github.com/sandy191020)**
+#### **[BookMyLawyer](https://github.com/youknowme19)**
 *A full-stack SaaS platform connecting legal professionals with prospective clients.*
 - **Stack**: `Next.js` • `FastAPI` • `PostgreSQL` • `Docker`
 - Features real-time appointment scheduling, secure automated invoice generation, and a messaging interface.
 
-#### **[Open Source Contributions](https://github.com/sandy191020)**
+#### **[Open Source Contributions](https://github.com/youknowme19)**
 *Active contributions to dev tools, developer utilities, and backend libraries.*
 - **Stack**: `Git` • `GitHub Actions` • `Community Tooling`
 - Fixed performance bottlenecks, updated documentation, and optimized test suites across community repositories.
